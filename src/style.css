@@ -1,0 +1,48 @@
+html, body {
+	font: 14px/1.21 'Helvetica Neue', arial, sans-serif;
+	font-weight: 400;
+}
+
+main {
+	display: flex;
+	flex: 1;
+	min-height: 100vh;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.form__area {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 400px;
+	min-height: 600px;
+}
+
+.form__area__text {
+	min-height: 300px;
+	padding: 1.5rem;
+	margin: 1rem;
+	resize: none;
+}
+
+.form__area__button {
+	padding: 15px;
+	width: 150px;
+	align-self: center;
+	background-color: brown;
+	border: 0;
+	color: white;
+	transition: background-color ease-in-out 200ms;
+}
+
+.form__area__button:hover {
+	transition: background-color ease-in-out 200ms;
+	background-color: darkblue;
+	cursor: pointer;
+}
+
+h1 {
+	text-align: center;
+}
